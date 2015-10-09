@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494C26C1BC709ED00A11B4F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494C26B1BC709ED00A11B4F /* SettingsViewController.m */; };
 		15E3076F1BC544F200EA9A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3076E1BC544F200EA9A53 /* main.m */; };
 		15E307721BC544F200EA9A53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E307711BC544F200EA9A53 /* AppDelegate.m */; };
-		15E307751BC544F200EA9A53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E307741BC544F200EA9A53 /* ViewController.m */; };
+		15E307751BC544F200EA9A53 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E307741BC544F200EA9A53 /* TipViewController.m */; };
 		15E307781BC544F200EA9A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E307761BC544F200EA9A53 /* Main.storyboard */; };
 		15E3077A1BC544F200EA9A53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E307791BC544F200EA9A53 /* Images.xcassets */; };
 		15E3077D1BC544F200EA9A53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15E3077B1BC544F200EA9A53 /* LaunchScreen.xib */; };
@@ -27,13 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0494C26A1BC709ED00A11B4F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = tipcalculator/SettingsViewController.h; sourceTree = SOURCE_ROOT; };
+		0494C26B1BC709ED00A11B4F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = tipcalculator/SettingsViewController.m; sourceTree = SOURCE_ROOT; };
 		15E307691BC544F200EA9A53 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E3076D1BC544F200EA9A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E3076E1BC544F200EA9A53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15E307701BC544F200EA9A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15E307711BC544F200EA9A53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15E307731BC544F200EA9A53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15E307741BC544F200EA9A53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15E307731BC544F200EA9A53 /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		15E307741BC544F200EA9A53 /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		15E307771BC544F200EA9A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15E307791BC544F200EA9A53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15E3077C1BC544F200EA9A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +86,14 @@
 			children = (
 				15E307701BC544F200EA9A53 /* AppDelegate.h */,
 				15E307711BC544F200EA9A53 /* AppDelegate.m */,
-				15E307731BC544F200EA9A53 /* ViewController.h */,
-				15E307741BC544F200EA9A53 /* ViewController.m */,
+				15E307731BC544F200EA9A53 /* TipViewController.h */,
+				15E307741BC544F200EA9A53 /* TipViewController.m */,
 				15E307761BC544F200EA9A53 /* Main.storyboard */,
 				15E307791BC544F200EA9A53 /* Images.xcassets */,
 				15E3077B1BC544F200EA9A53 /* LaunchScreen.xib */,
 				15E3076C1BC544F200EA9A53 /* Supporting Files */,
+				0494C26A1BC709ED00A11B4F /* SettingsViewController.h */,
+				0494C26B1BC709ED00A11B4F /* SettingsViewController.m */,
 			);
 			path = tipCalculator;
 			sourceTree = "<group>";
@@ -175,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15E307641BC544F200EA9A53 /* Build configuration list for PBXProject "tipCalculator" */;
+			buildConfigurationList = 15E307641BC544F200EA9A53 /* Build configuration list for PBXProject "tipcalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E307751BC544F200EA9A53 /* ViewController.m in Sources */,
+				15E307751BC544F200EA9A53 /* TipViewController.m in Sources */,
 				15E307721BC544F200EA9A53 /* AppDelegate.m in Sources */,
 				15E3076F1BC544F200EA9A53 /* main.m in Sources */,
+				0494C26C1BC709ED00A11B4F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15E307641BC544F200EA9A53 /* Build configuration list for PBXProject "tipCalculator" */ = {
+		15E307641BC544F200EA9A53 /* Build configuration list for PBXProject "tipcalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15E3078A1BC544F200EA9A53 /* Debug */,
@@ -414,6 +420,7 @@
 				15E3078E1BC544F200EA9A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E3078F1BC544F200EA9A53 /* Build configuration list for PBXNativeTarget "tipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				15E307911BC544F200EA9A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
