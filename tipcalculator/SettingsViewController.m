@@ -35,7 +35,7 @@
 
 - (void)loadUserDefaults {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    int defaultPercentage = [defaults integerForKey:@"defaultPercentageKey"];
+    float defaultPercentage = [defaults integerForKey:@"defaultPercentageKey"];
     self.defaultPercentageControl.selectedSegmentIndex = defaultPercentage;
 }
 
